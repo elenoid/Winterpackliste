@@ -1,0 +1,128 @@
+.list-settings{
+  padding: 0.5rem 0;
+  .btn{
+    // background: $firefox-orange;
+    // border-color: #bd4a0b;
+  }
+  p{
+    margin: 0;
+  }
+}
+
+.list-hidden{
+  transition: ease-out 1s !important;
+  max-height: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin: 0 !important;
+}
+
+.user-list-hidden{
+  max-height: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin: 0 !important;
+}
+
+
+.listsection-header{
+  width: 100%;
+  background-color: $nightly-blue;
+    border: 1px solid #3f4b73;
+  h5{
+    padding: 0.4rem 0rem 0.4rem 1.1rem;
+    color: #fff;
+    margin: 0;
+  }
+}
+
+.listbox{
+  margin-left: 1rem;
+  width: 100%;
+  input[type=checkbox]:checked{
+  }
+  .listbox__checkbox{
+    background-color: #2e5c87;
+    padding: 0.4rem 0.7rem;
+    display: inline-block;
+    border-right: 1px solid #fff;
+  }
+  .listbox__header{
+    background-color: #7ca9d2;
+    border-top: 1px solid #2e5c87;
+    border-right: 1px solid #2e5c87;
+    border-radius: 1px;
+    p{
+      color: #fff;
+      display: inline-block;
+      margin: 0;
+      margin-left: 1.2rem;
+    }
+    small{
+      color: #fff;
+      padding: 0.55rem;
+      float: right;
+    }
+    .info-hidden{
+      color: #728ea6;
+    }
+  }
+
+
+  .listbox__textbox{
+    transition: ease-in 1s;
+    max-height: 20rem;
+    background-color: #fcfcfc;
+    background-color: rgba(252, 252, 252, 0.95);
+    overflow: hidden;
+    padding: 2rem 3rem 1rem 3.5rem;
+    p{
+      font-size: 0.9rem;
+    }
+    li{
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+    h6{
+      margin-bottom: 0.3rem;
+      font-weight: 600;
+    }
+  }
+
+  .listbox__products{
+    transition: ease-in 1s;
+    background-color: #fcfcfc;
+    padding: 1rem 2rem 2rem 3.5rem;
+    overflow: hidden;
+    max-height: 15rem;
+    p{
+      display: block;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+    .row{
+      margin: 0;
+    }
+    .row>div{
+      padding-left: 0;
+      padding-right: 9rem;
+    }
+  }
+  .listbox__frame{
+    background-color: $gray-light;
+    width: 100%;
+    height: 7rem;
+  }
+  .listbox__options{
+    background-color: #fcfcfc;
+    padding: 1rem 2rem 2rem 3.5rem;
+    small{
+      color: #999;
+      margin-right: 1rem;
+    }
+  }
+}
+
+// .listbox:nth-of-type(even) .listbox__header {
+//   background-color: #7ca9d2;
+// }

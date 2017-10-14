@@ -1,0 +1,27 @@
+.navbar{
+  flex-direction: unset;
+  background-color: $developer-blue;
+  box-shadow: 0 3px 3px #bbb;
+  @media (min-width: 544px){
+    border-radius:  0;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+  }
+  img{
+    height: 50px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  h4{
+    display: inline-block;
+    color: #fefefe;
+    margin: 0;
+    padding: 10px 5px;
+    font-family: "Zilla Slab", "Open Sans", X-LocaleSpecific, sans-serif;
+  }
+}
+
+.alert{
+  display: block;
+  width: 100%;
+}
