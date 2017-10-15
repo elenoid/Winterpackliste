@@ -39,15 +39,24 @@
 .listbox{
   margin-left: 1rem;
   width: 100%;
+  @media (max-width: 576px){
+    margin-left: 0;
+  }
   input[type=checkbox]:checked{
   }
   .listbox__checkbox{
     background-color: #2e5c87;
-    padding: 0.4rem 0.7rem;
     display: inline-block;
     border-right: 1px solid #fff;
+    padding: 0.4rem 0.7rem;
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
   }
   .listbox__header{
+    overflow: hidden;
+    position: relative;
     background-color: #7ca9d2;
     background-color: rgba(124, 169, 210, 0.95);
     border-top: 1px solid #2e5c87;
@@ -57,16 +66,33 @@
       color: #fff;
       display: inline-block;
       margin: 0;
-      margin-left: 1.2rem;
+      // margin-left: 1.2rem;
+      margin-left: 3.4rem;
+      padding: .3rem 0rem;
+      @media (max-width: 576px){
+        width: 60%;
+      }
     }
-    small{
-      color: #fff;
-      padding: 0.55rem;
+    i{
+      font-size: 14px;
+    }
+    .select-product-sugestion,
+    .select-more-info{
+      display: inline-block;
       float: right;
-      transition: 1s;
+      padding: .3rem 0rem;
+      margin-right: 0.9rem;
+      cursor: pointer;
+      color: #fff;
     }
     .info-hidden{
       color: #728ea6;
+      cursor: default;
+    }
+    @media (max-width: 768px){
+      small{
+        display: none;
+      }
     }
   }
 
