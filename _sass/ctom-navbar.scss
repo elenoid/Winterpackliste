@@ -1,7 +1,7 @@
 .navbar{
   flex-direction: unset;
-  // background-color: #2e5c87;
-  // box-shadow: 0 3px 3px #bbb;
+  background-color: $nightly-blue;
+  box-shadow: 0 3px 3px #bbb;
   @media (min-width: 544px){
     border-radius:  0;
     border-bottom-left-radius: .25rem;
