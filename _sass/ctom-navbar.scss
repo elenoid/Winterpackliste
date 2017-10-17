@@ -1,8 +1,9 @@
 .navbar{
   flex-direction: unset;
+  background-image: url(../img/background10header.jpg);
   background-color: $nightly-blue;
   box-shadow: 0 3px 3px #bbb;
-  // position: relative;
+  background-size: cover;
   @media (min-width: 544px){
     border-radius:  0;
     border-bottom-left-radius: .25rem;
