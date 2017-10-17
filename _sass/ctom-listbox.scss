@@ -43,6 +43,18 @@
     }
   }
 }
+.listsection-header--feedback {
+  h5{
+    display: inline-block;
+    color: #a3bcd3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .mail{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.4rem;
+  }
+}
 
 .listbox{
   margin-left: 1rem;
